@@ -1,0 +1,222 @@
+.display{
+    background-image: url("https://cdn-japantimes.com/wp-content/uploads/2021/11/np_file_123174-870x489.jpeg");
+    width: 100%;
+    height: 50px;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6d5, #23D5AD);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    animation: change 10s ease-in-out infinite;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    color: white;
+}
+
+.greeting{
+    font-size: 2rem;
+    position: absolute;
+    letter-spacing: 2px;
+    top: 60%;
+    left: 38%;
+    color: white;
+}
+
+@keyframes change{
+    0%{
+        background-position: 0 50% ;
+    }
+
+    50%{
+        background-position: 100% 50% ;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    h1{
+        font-size: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        color: white;
+    }
+
+    .greeting{
+        font-size: 2rem;
+        position: absolute;
+        letter-spacing: 2px;
+        top: 50%;
+        left: 20%;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    .background{
+        width: 100%;
+        background-size: 175%;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        color: white;
+    }
+
+    .greeting{
+        font-size: 2rem;
+        position: absolute;
+        letter-spacing: 2px;
+        top: 55%;
+        left: 25%;
+        color: white;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px){
+    .background{
+        width: 100%;
+        background-size: 175%;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        color: white;
+    }
+
+    .greeting{
+        font-size: 2rem;
+        position: absolute;
+        letter-spacing: 2px;
+        top: 51%;
+        left: 22%;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .background{
+        width: 100%;
+        background-size: 175%;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        color: white;
+    }
+
+    .greeting{
+        font-size: 2rem;
+        position: absolute;
+        letter-spacing: 2px;
+        top: 55%;
+        left: 25%;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .background{
+        width: 100%;
+        background-size: 175%;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 40%;
+        left: 9%;
+        color: white;
+    }
+
+    .greeting{
+        font-size: 25px;
+        position: absolute;
+        letter-spacing: 2px;
+        top: 55%;
+        left: 15%;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .background{
+        width: 100%;
+        height: 97vh;
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6d5, #23D5AD);
+        background-position: center;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        animation: change 10s ease-in-out infinite;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border: 3px solid #fff;
+        position: absolute;
+        top: 40%;
+        left: 6%;
+        color: white;
+    }
+
+    .greeting{
+        font-size: 1rem;
+        position: absolute;
+        letter-spacing: 2px;
+        top: 55%;
+        left: 26%;
+        color: white;
+    }
+}
+

@@ -1,0 +1,22 @@
+.icon-color {
+    color: white;
+    display: none
+  }
+  
+  .bar {
+    display: none;
+    background-color: black;
+  }
+  
+  .mobile-nav-text a {
+    color: black;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .bar {
+      display: block;
+      text-align: left;
+    }
+  }
